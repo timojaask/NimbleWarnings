@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FDC6E761F014A9D00001A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC6E751F014A9D00001A78 /* AppDelegate.swift */; };
+		2FDC6E781F014A9D00001A78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC6E771F014A9D00001A78 /* ViewController.swift */; };
+		2FDC6E7B1F014A9D00001A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC6E791F014A9D00001A78 /* Main.storyboard */; };
+		2FDC6E7D1F014A9D00001A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC6E7C1F014A9D00001A78 /* Assets.xcassets */; };
+		2FDC6E801F014A9D00001A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC6E7E1F014A9D00001A78 /* LaunchScreen.storyboard */; };
+		2FDC6E8B1F014A9E00001A78 /* NimbleWarningsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC6E8A1F014A9E00001A78 /* NimbleWarningsTests.swift */; };
+		A6DBA14C1AE6FABDF61C3B4D /* Pods_NimbleWarningsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDB012810C69BCD85F46DBE /* Pods_NimbleWarningsTests.framework */; };
+		EF48F22EADD75185729563D6 /* Pods_NimbleWarnings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9B005FAD720572F5877A5 /* Pods_NimbleWarnings.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FDC6E871F014A9E00001A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FDC6E6A1F014A9D00001A78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FDC6E711F014A9D00001A78;
+			remoteInfo = NimbleWarnings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FDC6E721F014A9D00001A78 /* NimbleWarnings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleWarnings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDC6E751F014A9D00001A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FDC6E771F014A9D00001A78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FDC6E7A1F014A9D00001A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FDC6E7C1F014A9D00001A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FDC6E7F1F014A9D00001A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FDC6E811F014A9D00001A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDC6E861F014A9E00001A78 /* NimbleWarningsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleWarningsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDC6E8A1F014A9E00001A78 /* NimbleWarningsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleWarningsTests.swift; sourceTree = "<group>"; };
+		2FDC6E8C1F014A9E00001A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392013E9859BB721A79C4416 /* Pods-NimbleWarnings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleWarnings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleWarnings/Pods-NimbleWarnings.debug.xcconfig"; sourceTree = "<group>"; };
+		7A608B4610584C3394A9F194 /* Pods-NimbleWarningsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleWarningsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleWarningsTests/Pods-NimbleWarningsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FDB012810C69BCD85F46DBE /* Pods_NimbleWarningsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleWarningsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F9B005FAD720572F5877A5 /* Pods_NimbleWarnings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleWarnings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35715E21AF4639F43AAB287 /* Pods-NimbleWarningsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleWarningsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleWarningsTests/Pods-NimbleWarningsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F336E872E9D5A04F4D0BD9F8 /* Pods-NimbleWarnings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleWarnings.release.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleWarnings/Pods-NimbleWarnings.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FDC6E6F1F014A9D00001A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF48F22EADD75185729563D6 /* Pods_NimbleWarnings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDC6E831F014A9E00001A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBA14C1AE6FABDF61C3B4D /* Pods_NimbleWarningsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070DE74492A31161ECD6DE36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F9B005FAD720572F5877A5 /* Pods_NimbleWarnings.framework */,
+				8FDB012810C69BCD85F46DBE /* Pods_NimbleWarningsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FDC6E691F014A9D00001A78 = {
+			isa = PBXGroup;
+			children = (
+				2FDC6E741F014A9D00001A78 /* NimbleWarnings */,
+				2FDC6E891F014A9E00001A78 /* NimbleWarningsTests */,
+				2FDC6E731F014A9D00001A78 /* Products */,
+				4274339DC7D54B4A38959918 /* Pods */,
+				070DE74492A31161ECD6DE36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FDC6E731F014A9D00001A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FDC6E721F014A9D00001A78 /* NimbleWarnings.app */,
+				2FDC6E861F014A9E00001A78 /* NimbleWarningsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FDC6E741F014A9D00001A78 /* NimbleWarnings */ = {
+			isa = PBXGroup;
+			children = (
+				2FDC6E751F014A9D00001A78 /* AppDelegate.swift */,
+				2FDC6E771F014A9D00001A78 /* ViewController.swift */,
+				2FDC6E791F014A9D00001A78 /* Main.storyboard */,
+				2FDC6E7C1F014A9D00001A78 /* Assets.xcassets */,
+				2FDC6E7E1F014A9D00001A78 /* LaunchScreen.storyboard */,
+				2FDC6E811F014A9D00001A78 /* Info.plist */,
+			);
+			path = NimbleWarnings;
+			sourceTree = "<group>";
+		};
+		2FDC6E891F014A9E00001A78 /* NimbleWarningsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FDC6E8A1F014A9E00001A78 /* NimbleWarningsTests.swift */,
+				2FDC6E8C1F014A9E00001A78 /* Info.plist */,
+			);
+			path = NimbleWarningsTests;
+			sourceTree = "<group>";
+		};
+		4274339DC7D54B4A38959918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				392013E9859BB721A79C4416 /* Pods-NimbleWarnings.debug.xcconfig */,
+				F336E872E9D5A04F4D0BD9F8 /* Pods-NimbleWarnings.release.xcconfig */,
+				C35715E21AF4639F43AAB287 /* Pods-NimbleWarningsTests.debug.xcconfig */,
+				7A608B4610584C3394A9F194 /* Pods-NimbleWarningsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FDC6E711F014A9D00001A78 /* NimbleWarnings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FDC6E8F1F014A9E00001A78 /* Build configuration list for PBXNativeTarget "NimbleWarnings" */;
+			buildPhases = (
+				E448311E4A3B0D2DE795FE19 /* [CP] Check Pods Manifest.lock */,
+				2FDC6E6E1F014A9D00001A78 /* Sources */,
+				2FDC6E6F1F014A9D00001A78 /* Frameworks */,
+				2FDC6E701F014A9D00001A78 /* Resources */,
+				35B4F13812608D47809265F0 /* [CP] Embed Pods Frameworks */,
+				DCEDA13BCB86D4DCFD29A57D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleWarnings;
+			productName = NimbleWarnings;
+			productReference = 2FDC6E721F014A9D00001A78 /* NimbleWarnings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FDC6E851F014A9E00001A78 /* NimbleWarningsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FDC6E921F014A9E00001A78 /* Build configuration list for PBXNativeTarget "NimbleWarningsTests" */;
+			buildPhases = (
+				FC421F372E026652D9F05B05 /* [CP] Check Pods Manifest.lock */,
+				2FDC6E821F014A9E00001A78 /* Sources */,
+				2FDC6E831F014A9E00001A78 /* Frameworks */,
+				2FDC6E841F014A9E00001A78 /* Resources */,
+				38D38228973CCBB3C504A968 /* [CP] Embed Pods Frameworks */,
+				529BB25292D2B754AA93A059 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FDC6E881F014A9E00001A78 /* PBXTargetDependency */,
+			);
+			name = NimbleWarningsTests;
+			productName = NimbleWarningsTests;
+			productReference = 2FDC6E861F014A9E00001A78 /* NimbleWarningsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FDC6E6A1F014A9D00001A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = timojaask;
+				TargetAttributes = {
+					2FDC6E711F014A9D00001A78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6W4GZQ5Z99;
+						ProvisioningStyle = Automatic;
+					};
+					2FDC6E851F014A9E00001A78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6W4GZQ5Z99;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FDC6E711F014A9D00001A78;
+					};
+				};
+			};
+			buildConfigurationList = 2FDC6E6D1F014A9D00001A78 /* Build configuration list for PBXProject "NimbleWarnings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FDC6E691F014A9D00001A78;
+			productRefGroup = 2FDC6E731F014A9D00001A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FDC6E711F014A9D00001A78 /* NimbleWarnings */,
+				2FDC6E851F014A9E00001A78 /* NimbleWarningsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FDC6E701F014A9D00001A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDC6E801F014A9D00001A78 /* LaunchScreen.storyboard in Resources */,
+				2FDC6E7D1F014A9D00001A78 /* Assets.xcassets in Resources */,
+				2FDC6E7B1F014A9D00001A78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDC6E841F014A9E00001A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B4F13812608D47809265F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleWarnings/Pods-NimbleWarnings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D38228973CCBB3C504A968 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleWarningsTests/Pods-NimbleWarningsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529BB25292D2B754AA93A059 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleWarningsTests/Pods-NimbleWarningsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCEDA13BCB86D4DCFD29A57D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleWarnings/Pods-NimbleWarnings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E448311E4A3B0D2DE795FE19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC421F372E026652D9F05B05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FDC6E6E1F014A9D00001A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDC6E781F014A9D00001A78 /* ViewController.swift in Sources */,
+				2FDC6E761F014A9D00001A78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDC6E821F014A9E00001A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDC6E8B1F014A9E00001A78 /* NimbleWarningsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FDC6E881F014A9E00001A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FDC6E711F014A9D00001A78 /* NimbleWarnings */;
+			targetProxy = 2FDC6E871F014A9E00001A78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FDC6E791F014A9D00001A78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FDC6E7A1F014A9D00001A78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FDC6E7E1F014A9D00001A78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FDC6E7F1F014A9D00001A78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FDC6E8D1F014A9E00001A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FDC6E8E1F014A9E00001A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FDC6E901F014A9E00001A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392013E9859BB721A79C4416 /* Pods-NimbleWarnings.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6W4GZQ5Z99;
+				INFOPLIST_FILE = NimbleWarnings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timojaask.NimbleWarnings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FDC6E911F014A9E00001A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F336E872E9D5A04F4D0BD9F8 /* Pods-NimbleWarnings.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6W4GZQ5Z99;
+				INFOPLIST_FILE = NimbleWarnings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timojaask.NimbleWarnings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2FDC6E931F014A9E00001A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35715E21AF4639F43AAB287 /* Pods-NimbleWarningsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6W4GZQ5Z99;
+				INFOPLIST_FILE = NimbleWarningsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timojaask.NimbleWarningsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleWarnings.app/NimbleWarnings";
+			};
+			name = Debug;
+		};
+		2FDC6E941F014A9E00001A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A608B4610584C3394A9F194 /* Pods-NimbleWarningsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6W4GZQ5Z99;
+				INFOPLIST_FILE = NimbleWarningsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timojaask.NimbleWarningsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleWarnings.app/NimbleWarnings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FDC6E6D1F014A9D00001A78 /* Build configuration list for PBXProject "NimbleWarnings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDC6E8D1F014A9E00001A78 /* Debug */,
+				2FDC6E8E1F014A9E00001A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FDC6E8F1F014A9E00001A78 /* Build configuration list for PBXNativeTarget "NimbleWarnings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDC6E901F014A9E00001A78 /* Debug */,
+				2FDC6E911F014A9E00001A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FDC6E921F014A9E00001A78 /* Build configuration list for PBXNativeTarget "NimbleWarningsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDC6E931F014A9E00001A78 /* Debug */,
+				2FDC6E941F014A9E00001A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FDC6E6A1F014A9D00001A78 /* Project object */;
+}

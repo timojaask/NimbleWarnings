@@ -1,0 +1,6 @@
+framework module Pods_NimbleWarnings {
+  umbrella header "Pods-NimbleWarnings-umbrella.h"
+
+  export *
+  module * { export * }
+}
